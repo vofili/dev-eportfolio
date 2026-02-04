@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <defs>
+    <style>
+      .t{font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; fill:#0d1220}
+      .muted{fill:#22304f; opacity:.8}
+      .bg{fill:#f7f8fb}
+      .box{fill:#ffffff; stroke:#d7dbe6; stroke-width:1.3}
+      .boxA{fill:#eef4ff; stroke:#9db7ff; stroke-width:1.5}
+      .boxB{fill:#f1fbff; stroke:#8dd8e6; stroke-width:1.5}
+      .line{stroke:#7a879f; stroke-width:2.2; stroke-linecap:round}
+      .lineA{stroke:#2d6cff; stroke-width:3; stroke-linecap:round}
+    </style>
+  </defs>
+
+  <rect width="1200" height="520" class="bg"></rect>
+  <text x="40" y="62" class="t" font-size="26" font-weight="700">AI / ML Pipeline Architecture</text>
+  <text x="40" y="92" class="t muted" font-size="14">Ingestion → feature store → training → registry → serving → monitoring</text>
+
+  <rect x="60" y="140" width="230" height="110" rx="16" class="boxA"></rect>
+  <text x="84" y="175" class="t" font-size="14" font-weight="700">Ingestion</text>
+  <text x="84" y="200" class="t muted" font-size="13">S3 • Streams • Batch</text>
+
+  <rect x="330" y="140" width="260" height="110" rx="16" class="box"></rect>
+  <text x="354" y="175" class="t" font-size="14" font-weight="700">Processing</text>
+  <text x="354" y="200" class="t muted" font-size="13">ETL • Validation • QC</text>
+
+  <rect x="630" y="140" width="240" height="110" rx="16" class="boxB"></rect>
+  <text x="654" y="175" class="t" font-size="14" font-weight="700">Feature Store</text>
+  <text x="654" y="200" class="t muted" font-size="13">Online + Offline</text>
+
+  <rect x="910" y="140" width="230" height="110" rx="16" class="box"></rect>
+  <text x="934" y="175" class="t" font-size="14" font-weight="700">Training</text>
+  <text x="934" y="200" class="t muted" font-size="13">SageMaker / Jobs</text>
+
+  <rect x="240" y="320" width="260" height="120" rx="16" class="box"></rect>
+  <text x="264" y="358" class="t" font-size="14" font-weight="700">Model Registry</text>
+  <text x="264" y="382" class="t muted" font-size="13">Versioning • Approval</text>
+
+  <rect x="540" y="320" width="300" height="120" rx="16" class="boxA"></rect>
+  <text x="564" y="358" class="t" font-size="14" font-weight="700">Serving</text>
+  <text x="564" y="382" class="t muted" font-size="13">API • Batch scoring</text>
+  <text x="564" y="406" class="t muted" font-size="13">Low-latency endpoints</text>
+
+  <rect x="880" y="320" width="260" height="120" rx="16" class="boxB"></rect>
+  <text x="904" y="358" class="t" font-size="14" font-weight="700">Monitoring</text>
+  <text x="904" y="382" class="t muted" font-size="13">Drift • Bias • SLOs</text>
+
+  <line x1="290" y1="195" x2="330" y2="195" class="lineA"></line>
+  <line x1="590" y1="195" x2="630" y2="195" class="lineA"></line>
+  <line x1="870" y1="195" x2="910" y2="195" class="lineA"></line>
+
+  <line x1="1025" y1="250" x2="370" y2="320" class="line"></line>
+  <line x1="370" y1="440" x2="540" y2="380" class="lineA"></line>
+  <line x1="840" y1="380" x2="880" y2="380" class="lineA"></line>
+</svg>

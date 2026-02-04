@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <defs>
+    <style>
+      .t{font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; fill:#0d1220}
+      .muted{fill:#22304f; opacity:.8}
+      .bg{fill:#f7f8fb}
+      .box{fill:#ffffff; stroke:#d7dbe6; stroke-width:1.3}
+      .boxA{fill:#eef4ff; stroke:#9db7ff; stroke-width:1.5}
+      .boxB{fill:#f1fbff; stroke:#8dd8e6; stroke-width:1.5}
+      .line{stroke:#7a879f; stroke-width:2.2; stroke-linecap:round}
+      .lineA{stroke:#2d6cff; stroke-width:3; stroke-linecap:round}
+    </style>
+  </defs>
+
+  <rect width="1200" height="520" class="bg"></rect>
+  <text x="40" y="62" class="t" font-size="26" font-weight="700">Observability &amp; Reliability</text>
+  <text x="40" y="92" class="t muted" font-size="14">Metrics + logs + traces → dashboards → alerting → incident response</text>
+
+  <rect x="60" y="150" width="320" height="140" rx="18" class="boxA"></rect>
+  <text x="84" y="190" class="t" font-size="14" font-weight="700">Services</text>
+  <text x="84" y="216" class="t muted" font-size="13">OpenTelemetry SDK</text>
+  <text x="84" y="242" class="t muted" font-size="13">Structured logs</text>
+  <text x="84" y="268" class="t muted" font-size="13">Trace propagation</text>
+
+  <rect x="430" y="150" width="340" height="140" rx="18" class="box"></rect>
+  <text x="454" y="190" class="t" font-size="14" font-weight="700">Collection</text>
+  <text x="454" y="216" class="t muted" font-size="13">OTel Collector</text>
+  <text x="454" y="242" class="t muted" font-size="13">Sampling • enrichment</text>
+  <text x="454" y="268" class="t muted" font-size="13">PII controls</text>
+
+  <rect x="820" y="120" width="320" height="190" rx="18" class="boxB"></rect>
+  <text x="844" y="160" class="t" font-size="14" font-weight="700">Backends</text>
+  <text x="844" y="186" class="t muted" font-size="13">CloudWatch / Metrics</text>
+  <text x="844" y="212" class="t muted" font-size="13">Logs + retention</text>
+  <text x="844" y="238" class="t muted" font-size="13">X-Ray / Traces</text>
+  <text x="844" y="264" class="t muted" font-size="13">Audit trail</text>
+
+  <rect x="260" y="340" width="300" height="120" rx="18" class="box"></rect>
+  <text x="284" y="378" class="t" font-size="14" font-weight="700">Dashboards</text>
+  <text x="284" y="404" class="t muted" font-size="13">Golden signals • SLOs</text>
+
+  <rect x="610" y="340" width="300" height="120" rx="18" class="boxA"></rect>
+  <text x="634" y="378" class="t" font-size="14" font-weight="700">Alerting</text>
+  <text x="634" y="404" class="t muted" font-size="13">Noise control • runbooks</text>
+
+  <rect x="960" y="340" width="180" height="120" rx="18" class="box"></rect>
+  <text x="984" y="378" class="t" font-size="14" font-weight="700">On-call</text>
+  <text x="984" y="404" class="t muted" font-size="13">Incidents</text>
+
+  <line x1="380" y1="220" x2="430" y2="220" class="lineA"></line>
+  <line x1="770" y1="220" x2="820" y2="220" class="lineA"></line>
+  <line x1="600" y1="290" x2="410" y2="340" class="line"></line>
+  <line x1="980" y1="290" x2="760" y2="340" class="line"></line>
+  <line x1="910" y1="400" x2="960" y2="400" class="lineA"></line>
+</svg>
