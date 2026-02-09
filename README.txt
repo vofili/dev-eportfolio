@@ -1,22 +1,20 @@
-Future Imperfect by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Valentine Ofili E-Portfolio
+Design based on “Future Imperfect” by HTML5 UP, licensed under 
+Creative Commons Attribution 3.0 (CC BY 3.0). 
+<https://html5up.net> | <https://creativecommons.org/licenses/by/3.0/>
 
+Credits:
 
-It's been a long time coming, but I've finally gotten around to creating a brand new
-blog-style template (and the first since Striped, which came out waaaaay back in 2013).
-Anyway, Future Imperfect features a clean, expansive layout, a toggleable search box,
-and -- because pretty much all modern browsers can use it now -- a whole lot of flexbox
-action. Enjoy it :)
+	Demo Images:
+		Unsplash (unsplash.com)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+	Icons:
+		Font Awesome (fontawesome.io)
 
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
+	Other:
+		jQuery (jquery.com)
+		Scrollex (github.com/ajlkn/jquery.scrollex)
+		Responsive Tools (github.com/ajlkn/responsive-tools)
 
 Credits:
 
